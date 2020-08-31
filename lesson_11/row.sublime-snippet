@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<div class="row">
+	<div class="col-lg-4">
+		<img src="${1}" alt=""/>
+		<p></p>
+	</div>
+	<div class="col-lg-4">
+		<img src="" alt=""/>
+		<p></p>
+	</div>
+	<div class="col-lg-4">
+		<img src="" alt=""/>
+		<p></p>
+	</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>row</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

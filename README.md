@@ -7,3 +7,4 @@
 [Урок 13](https://huz-vladymyr.github.io/github/index.html "Домашняя работа к уроку 13")-Сайт пикиель в пиксель  
 [Урок 14](https://huz-vladymyr.github.io/lesson_14/index.html "Домашняя работа к уроку 14")-Подборка шрифтов  
 [Модуль 5 практика 1](https://huz-vladymyr.github.io/lesson%2014/index.html "Шапка сайта")-Сверстали шапку сайта
+[Мой первый сайт](huz-vladymyr.github.io/MyWeb/index.html"Сайт с анимацией на CSS и JS")-Сайт с анимацией

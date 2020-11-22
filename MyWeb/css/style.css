@@ -1,0 +1,297 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    line-height: 1.3em;
+}
+
+p {
+    line-height: 1.8em;
+    margin: 0;
+}
+
+.container {
+    width: 1172px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #4EBEFE;
+    background: -webkit-linear-gradient(left, #4EBEFE, #3790D9);
+    background: -moz-linear-gradient(left, #4EBEFE, #3790D9);
+    background: linear-gradient(to right, #4EBEFE, #3790D9);
+    padding-top: 66px;
+    padding-bottom: 75px;
+    color: #fff;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer {
+    width: 560px;
+}
+
+.title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 37px;
+    margin-bottom: 22px;
+}
+
+.title .dream {
+    font-size: 59px;
+    line-height: 1.55em;
+}
+
+.intro {
+    margin-bottom: 39px;
+    width: 400px;
+}
+
+.btn,
+.btn-form {
+    font-family: 'Montserrat', sans-serif;
+    color: #2e2a1b;
+    font-weight: 900;
+    font-size: 15px;
+    background: #ffd429;
+    display: block;
+    width: 220px;
+    padding: 18px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.btn:hover,
+.btn-form:hover {
+    background: #9e8214;
+}
+
+.travel {
+    margin-top: 22px;
+    margin-bottom: 12px;
+}
+
+.expectation {
+    padding-top: 108px;
+    padding-bottom: 83px;
+}
+
+.section-title {
+    color: #201b2d;
+    font-size: 30px;
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 73px;
+}
+
+.plan {
+    width: 300px;
+    background: url('../img/icon1.jpg') no-repeat center top;
+}
+
+.plan-title {
+    text-align: center;
+    font-size: 19px;
+    color: #201b2d;
+    margin-top: 85px;
+}
+
+.plan-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    line-height: 1.4em;
+    text-align: center;
+    color: #201b2d;
+    font-weight: 400;
+}
+
+.plan-travel {
+    width: 300px;
+    background: url('../img/icon2.jpg') no-repeat center top;
+}
+
+.plan-life {
+    width: 300px;
+    background: url('../img/icon3.jpg') no-repeat center top;
+}
+
+.forms {
+    background: #ecf3f8;
+    padding: 90px 0;
+
+}
+
+.form {
+    margin-top: 57px;
+}
+
+.input-name,
+.input-email,
+.input-phone,
+.input-where {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 24px;
+    display: block;
+    width: 305px;
+    height: 44px;
+    margin: 0 auto 15px;
+    border: 1px solid #bbb;
+}
+
+::-webkit-input-placeholder {
+    color: #bbb;
+}
+
+.btn-form {
+    width: 305px;
+    border: none;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.footer {
+    background: #164d7a;
+}
+
+.container-footer {
+    padding: 38px 0;
+}
+
+.protection {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+
+}
+.yellow {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffc107;
+    animation: blink 3s infinite; /* Параметры анимации */
+   }
+   @keyframes blink {
+    from { opacity: 1; /* Непрозрачный текст */ }
+    to { opacity: 0; /* Прозрачный текст */ }
+   }
+
+   
+.animated {
+    opacity: 0;
+}
+ 
+
+
+
+/*Responsive*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .offer {
+        width: 100%;
+    }
+
+    .intro {
+        width: 100%;
+    }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+
+    .wrapper {
+        margin-top: 30px;
+    }
+
+    .travel {
+        width: 530px;
+    }
+
+    .plans {
+        flex-direction: column;
+    }
+
+    .plan,
+    .plan-travel,
+    .plan-life {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .travel {
+        width: 280px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+}
